@@ -1,0 +1,46 @@
+/*.thumbnail img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+/*
+
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+*/
+
+.thumbnail img {
+    /*height: 60%; */
+    /*width: 100%;*/
+    overflow: hidden;
+}
+
+.minicg {
+    height: 250px;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.thumbnail {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.glyphicon-tent {
+    top: 5px;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+    background-color: gray;
+}
