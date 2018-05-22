@@ -26,6 +26,9 @@ app.use(methodOverride("_method"));
 app.use(flash());
 //seedDB(); //seed the database
 
+// MOMENT 
+app.locals.moment = require('moment');
+
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
     secret: "Agnieszka is the best!",

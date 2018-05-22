@@ -17,6 +17,7 @@
     "express-session": "^1.15.6",
     "image-size": "^0.6.2",
     "method-override": "^2.3.10",
+    "moment": "^2.22.1",
     "mongoose": "^5.0.6",
     "node-geocoder": "^3.22.0",
     "passport": "^0.4.0",
